@@ -10,17 +10,28 @@
 
 ---
 
-## 개발 Requirement
+## Design
+
+### ERD(v1.0)
+![ERD](https://github.com/YukJiSoo/UMCNAN-Document/blob/master/Class_190804_v1.0.png)
+
+### Class Diafgram(v1.0)
+![Class Diagram](https://github.com/YukJiSoo/UMCNAN-Document/blob/master/Class_190804_v1.0.png)
+
+---
+
+## Requirement
 
 ### Client - iOS
 
 - Language
-  - Swift 4.2 or 5.0
+  - Swift 5.0
   
 - Deployment target
   - 11.0
   
-- RxSwift로 구현은 일단 생각만(주말에 강의 봐보고 판단하자)
+- 사용기술
+  - Alamofire, Kingfisher, RxSwift, MVVM
 
 
 
@@ -34,17 +45,16 @@
 - DB
   - MySQL
   
-- AWS(일단은 고려해보자)
+- AWS
   - EC2
   - RDS
   - S3
   
-- (Docker 써볼까?)
+- Docker
 
 - Admin
   - React !!
-  - 데이터 관리 용도
-
+  - 데이터 관리 용도의 관리자 페이지
 
 
 ---
@@ -70,8 +80,6 @@
 - 러너 모집
   - 자신이 설정한 러닝코스를 공지
   - 지원기간 설정가능
-  - data
-    - lastEnrollmentDate
     
 - 러닝 참여
   - 공지된 러닝중에서 원하는 러닝 참여
@@ -85,7 +93,7 @@
     - 개인이 러닝한 것은 체크안함
   - 크루장이 같이뛰기 러닝을 등록하면 자동으로 크루원들에게 알림이 감
   - 크루장은 크루에 대한 모든 권한
-  - 개인은 여러 크루에 참여 가능
+  - 개인은 여러 크루 생성 및 참여 가능
   - data
     - name
     - creationDate
