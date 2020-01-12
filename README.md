@@ -58,7 +58,7 @@
 
 
 ### ERD(v1.0)
-![ERD](https://github.com/YukJiSoo/UMCNAN-Document/blob/master/Class_190804_v1.0.png)
+![ERD](https://github.com/YukJiSoo/UMCNAN-Document/blob/master/ERD_190804_v1.0.png)
 
 ### Class Diafgram(v1.0)
 ![Class Diagram](https://github.com/YukJiSoo/UMCNAN-Document/blob/master/Class_190804_v1.0.png)
